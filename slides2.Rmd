@@ -15,7 +15,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(eval = TRUE)
+knitr::opts_chunk$set(eval = TRUE, out.height=450, out.width=450)
 ```
 
 
@@ -67,9 +67,7 @@ class: my-one-page-font
 
 # Epidemiyoloji: Tarihsel Bakış 
 
-```{r bd, eval=TRUE, echo=FALSE, out.height=500, out.width=750, fig.align="center"}
-knitr::include_graphics("/Users/TEG/Documents/Dropbox/Dersler/soc_health/slides2/p5.png")
-```
+![an image](p5.png)
 
 
 ---
@@ -126,15 +124,11 @@ class: my-one-page-font
 
 class: my-one-page-font
 
-# Epidemiyoloji: John Snow
-
 
 - Snow, zamanla koleranın içme suyu yoluyla bulaştığından şüphelenmeye başlar. *Çözüm?*
 
 --
-```{r img, eval=TRUE, echo=FALSE, out.height=450, out.width=450, fig.align="center"}
-knitr::include_graphics("/Users/TEG/Documents/Dropbox/Dersler/soc_health/slides2/p3.jpg")
-```
+![an image](p3.jpg)
 ---
 
 class: my-one-page-font
@@ -236,15 +230,14 @@ class: my-one-page-font
 
 class: my-one-page-font
 
-# Epidemiyolojik Geçiş
 
 İlk akla gelen sebep tıpta ilerlemeler. *Yeterli bir açıklama mı?*
 
 --
 
-```{r img2, eval=TRUE, echo=FALSE, out.height=450, out.width=450, fig.align="center"}
-knitr::include_graphics("/Users/TEG/Documents/Dropbox/Dersler/soc_health/slides2/p4.png")
-```
+
+![an image](p4.png)
+
 
 ---
 
